@@ -1,5 +1,5 @@
 //js
-let todo = JSON.parse(localStorage.getItem("todo")) || [];
+let todo = [];
 const todoInput = document.getElementById("todoInput");
 const todoList = document.getElementById("todoList");
 const addTaskBtn = document.getElementById("inputBtn");
